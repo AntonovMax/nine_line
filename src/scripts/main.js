@@ -17,7 +17,7 @@ import router from '@components/router/router';
 import home from '../pages/home/home';
 import article from '../pages/article/article';
 import sharing from '../components/sharing/sharing';
-import demoRbc from '../pages/demo-rbc/demoRbc';
+
 
 // eslint-disable-next-line no-underscore-dangle
 window._debounce = debounce;
@@ -50,14 +50,14 @@ const scriptsInit = [
 	analytics.init,
 	sharing.init,
 
-	demoRbc.init,
+
 	home.init,
 	article.init,
 ];
 
 // добавить скрипты для удаленния данных при уходе
 const scriptsDestroy = [
-	demoRbc.destroy,
+
 ];
 
 const init = () => {
