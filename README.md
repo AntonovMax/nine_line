@@ -42,9 +42,6 @@
 	3. [Настройка stylelint для VC Code](#настройка-stylelint-для-vc-code)
 	4. [Отмена минификации файла HTML после сборки билда](#отмена-минификации-файла-html-после-сборки-билда)
 
-# Работа со сборкой
-
-за основу взята сборка: [ninelines-template](https://gitlab.linestest.com/ninelines/ninelines-template)
 
 ## Старт и Сборка
 
